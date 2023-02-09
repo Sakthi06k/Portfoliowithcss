@@ -1,0 +1,116 @@
+body{
+    background-image: url(./pexels-elīna-arāja-3377405.jpg);
+     font-family: cursive;
+     margin: 0;
+     padding: 0;
+     margin-top: -2%;
+     font-weight: 900;
+}
+.ul{
+    display: inline-block;list-style-type: circle;
+}
+.left{
+    display: inline-block; 
+    float: left;
+    margin-left: 2%
+}
+.ul2{
+    list-style-type: square;
+}
+.right{
+    margin-left: 50%;
+}
+header img{
+    height: 95px;
+    width: 100px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 2%;
+    margin-top: 5%;
+}
+/* .img{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    
+} */
+img:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  /* img {
+    filter: drop-shadow(4px 5px 10px rgb(20, 129, 180));
+ } */
+ h1{
+    color: rgb(255, 255, 255);
+ }
+ .top{
+    background-color: rgb(49, 60, 78);
+    margin: 0;
+    padding: 0;
+ }
+ .top h1,h5{
+    margin: 2%;
+    margin-top: 2%;
+    color: white;
+ }
+ .top p{
+    color: teal;
+    margin-left: 2%;
+    margin-top: -1%;
+    margin-bottom: 2%;
+ }
+ .mid{
+    background-color: rgb(34, 42, 51);
+    margin-top: -2%;
+    color: white;
+ }
+ h3{
+    color: teal;
+ }
+ .li{
+    margin-left: 30%;
+ }
+ .left h3,.right h3{
+    text-decoration: underline;
+ }
+
+
+ .light{
+    font-size: small;
+    color: rgb(255, 255, 255);
+ }
+table {
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: rgb(34, 42, 51);
+  border-style: solid;
+  color: black;
+  background-image: url(./download.jpg);
+}
+
+.table td, .table th {
+  border-width: 2px;
+  border-color: rgb(34, 42, 51);
+  border-style: solid;
+  padding: 3px;
+}
+
+.table thead {
+  background-color: rgb(73, 82, 97);
+  color: white;
+}
+.left h5{
+    color: black;
+}
+h5{
+    font-size: large;
+}
+.skills{
+    font-weight: 900;
+}
+.sa{
+    margin-right: 2%;
+}
